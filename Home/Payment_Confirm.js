@@ -33,18 +33,18 @@ const PaymentConfirmPage = () => {
       </TouchableOpacity>
       <View style={styles.conten}>
         <Image
-          source={require('../../Image/payment_confirm.png')}
+          source={require('../../Image/menunggu_verif.png')}
           style={{
-            width: 300,
-            height: 250,
+            width: 250,
+            height: 200,
             resizeMode: 'contain',
-            marginBottom: -70,
+            marginBottom: 30,
           }}
         />
-        <Text style={styles.textPayment}>Payment Confirmed</Text>
-        <Text style={styles.textOderNumber}>Order Number #6279870</Text>
+        <Text style={styles.textPayment}>Menunggu Verifikasi</Text>
+        <Text style={styles.textOderNumber}>Nomor Pesanan #6279870</Text>
         <Text style={styles.textYourOrder}>
-          Your order will now be proceeded to seller
+          Pembayaran kamu akan terverifikasi 1x24 jam
         </Text>
         <TouchableOpacity style={styles.button}>
           <Text style={styles.textButton}>Check Status</Text>
